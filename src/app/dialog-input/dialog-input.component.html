@@ -1,0 +1,13 @@
+<h3>
+  Desisto
+</h3>
+<p>
+  {{data.message}}
+</p>
+<div>
+  <mat-form-field class="example-full-width">
+    <input matInput type="text" placeholder="" [(ngModel)]="resultInfo">
+  </mat-form-field><br>
+</div>
+<button mat-raised-button color="primary" (click)="fechar()"><mat-icon>check</mat-icon> OK </button>
+<button class="floatRigth" mat-raised-button color="warn" (click)="fechar()"><mat-icon>cancel</mat-icon> Cancelar </button>
